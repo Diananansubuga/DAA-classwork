@@ -1,0 +1,8 @@
+BINARY SEARCH
+it a search algorithm efficient for searhcing in sorted way.
+
+ALGORITHM
+1. inspect the middle item of an array size N
+2. inspect the middle of the array of size N/2
+4. inpect the middle item of an array of size N/4 and sort unitill lower bound becomes biffer than upper bound.
+this implies k=log2N where k is the number of partitions.
